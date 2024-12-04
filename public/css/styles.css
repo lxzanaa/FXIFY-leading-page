@@ -598,6 +598,12 @@ video {
 .mt-3 {
   margin-top: 0.75rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-\[36px\] {
+  margin-bottom: 36px;
+}
 .inline-block {
   display: inline-block;
 }
@@ -628,6 +634,15 @@ video {
 .h-full {
   height: 100%;
 }
+.h-1 {
+  height: 0.25rem;
+}
+.h-\[1px\] {
+  height: 1px;
+}
+.h-\[32px\] {
+  height: 32px;
+}
 .w-10 {
   width: 2.5rem;
 }
@@ -654,6 +669,12 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[61px\] {
+  width: 61px;
 }
 .max-w-\[1200px\] {
   max-width: 1200px;
@@ -783,6 +804,9 @@ video {
 .border-t {
   border-top-width: 1px;
 }
+.border-r-\[2px\] {
+  border-right-width: 2px;
+}
 .border-\[\#4852F533\] {
   border-color: #4852F533;
 }
@@ -806,6 +830,12 @@ video {
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
 }
+.border-\[\] {
+  border-color: ;
+}
+.border-\[\@\#\] {
+  border-color: @#;
+}
 .border-r-white\/10 {
   border-right-color: rgb(255 255 255 / 0.1);
 }
@@ -825,6 +855,10 @@ video {
 }
 .bg-\[\#4852F50D\] {
   background-color: #4852F50D;
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-custom-gradient {
   background-image: linear-gradient(91.95deg, rgba(172, 215, 255, 0.88) 1.64%, #4852F5 82.48%);
@@ -956,6 +990,10 @@ video {
   padding-top: 7px;
   padding-bottom: 7px;
 }
+.py-\[2px\] {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1003,6 +1041,15 @@ video {
 }
 .pt-\[74px\] {
   padding-top: 74px;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+.pr-3 {
+  padding-right: 0.75rem;
 }
 .text-center {
   text-align: center;
@@ -1106,6 +1153,9 @@ video {
 }
 .text-white\/50 {
   color: rgb(255 255 255 / 0.5);
+}
+.text-\[\] {
+  color: ;
 }
 .underline {
   text-decoration-line: underline;
@@ -1264,12 +1314,20 @@ body {
   opacity: 0.85;
 }
 
+.hover\:opacity-65:hover {
+  opacity: 0.65;
+}
+
 .active\:opacity-70:active {
   opacity: 0.7;
 }
 
 .active\:opacity-75:active {
   opacity: 0.75;
+}
+
+.active\:opacity-55:active {
+  opacity: 0.55;
 }
 
 @media (min-width: 1280px) {
@@ -1292,5 +1350,9 @@ body {
 
   .xl\:pt-\[160px\] {
     padding-top: 160px;
+  }
+
+  .xl\:pt-\[100px\] {
+    padding-top: 100px;
   }
 }
