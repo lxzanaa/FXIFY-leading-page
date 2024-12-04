@@ -2,62 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* In your styles.css or tailwind.css */
+@font-face {
+  font-family: "MyFont";
+  src: url("/public/font/aventa/Aventa-LightPERSONALUSEONLY.otf")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
-.anventa_font {
-  font-family: "Advent Pro", sans-serif;
+/* Apply the custom font to the entire body */
+body {
+  font-family: "MyFont", sans-serif !important;
 }
 
 .title {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 13px;
-  color: white;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 13px !important;
+  color: white !important;
 }
 
 .swiper-pagination {
-  all: unset;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.swiper-container {
-  overflow: visible;
+  all: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-.custom-pagination {
-  border: 1px solid red;
-  height: auto;
+.swiper-container {
+  overflow: visible !important;
 }
 
 .custom-dot {
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
-  background-color: #ccc;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  background-color: #ccc !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
 }
 
 .custom-dot.active {
-  background-color: #007aff;
+  background-color: #007aff !important;
 }
 
 .swiper-pagination-bullet {
-  width: 6px;
-  height: 6px;
-  background-color: #ffffff66;
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #ffffff66 !important;
 }
 
 .swiper-pagination-bullet-active {
-  width: 10px;
-  height: 10px;
-  background-color: #ffffff;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ffffff !important;
 }
 
 .swiper-pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Custom Pagination for .custom-pagination-1 */
+.custom-pagination-1 {
+  all: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-container {
+  overflow: visible !important;
+}
+
+/* Custom Dot Styling */
+
+
+.custom-pagination-1 .custom-dot {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  background-color: #ccc !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+}
+
+/* Active Dot Styling */
+.custom-pagination-1 .custom-dot.active {
+  background-color: #007aff !important;
+}
+
+/* Pagination Bullet Styles (Default) */
+.custom-pagination-1 .swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #f2f2f2 !important;
+}
+
+/* Pagination Bullet Styles (Active) */
+.custom-pagination-1 .swiper-pagination-bullet-active {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ffffff !important;
+}
+
+.custom-pagination-1 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
