@@ -11,6 +11,10 @@
 }
 
 /* Apply the custom font to the entire body */
+html{
+        scroll-behavior: smooth;
+}
+
 body {
   font-family: "Aventa", sans-serif;
 }
