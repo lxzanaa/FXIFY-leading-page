@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Aventa";
-  src:
-    url("/public/fonts/ellenluff-aventa/EllenLuff - Aventa Light.otf") format("otf");
+  font-family: 'Aventa';
+  src: url('/public/fonts/ellenluff-aventa/EllenLuff - Aventa Light.otf')
+    format('otf');
   font-weight: normal;
   font-style: normal;
 }
 
 /* Apply the custom font to the entire body */
-html{
-        scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Aventa", sans-serif;
+  font-family: 'Aventa', sans-serif;
 }
 
 .title {
